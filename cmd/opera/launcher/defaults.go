@@ -15,9 +15,9 @@ import (
 )
 
 const (
-	DefaultP2PPort  = 5050  // Default p2p port for listening
-	DefaultHTTPPort = 18545 // Default TCP port for the HTTP RPC server
-	DefaultWSPort   = 18546 // Default TCP port for the websocket RPC server
+	DefaultP2PPort  = 8050  // Default p2p port for listening - changed from 5050 to 8050 by Candle Labs, Inc.
+	DefaultHTTPPort = 28545 // Default TCP port for the HTTP RPC server - changed from 18545 to 28545 by Candle Labs, Inc.
+	DefaultWSPort   = 28546 // Default TCP port for the websocket RPC server -  changed from 18546 to 28546 by Candle Labs, Inc.
 )
 
 func overrideFlags() {

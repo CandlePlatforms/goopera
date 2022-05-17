@@ -1,4 +1,4 @@
-# Opera 
+# Opera
 
 EVM-compatible chain secured by the Lachesis consensus algorithm.
 
@@ -69,7 +69,7 @@ specify password with a file using `--validator.password` flag.
 #### Participation in discovery
 
 Optionally you can specify your public IP to straighten connectivity of the network.
-Ensure your TCP/UDP p2p port (5050 by default) isn't blocked by your firewall.
+Ensure your TCP/UDP p2p port (8050 by default) isn't blocked by your firewall.
 
 ```shell
 $ opera --nat extip:1.2.3.4
